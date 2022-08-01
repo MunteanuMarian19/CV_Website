@@ -1,0 +1,141 @@
+:root {
+  --darkGreen: #355e3b;
+  --mediumGreen: #00b38f;
+  --lightGreen: #00cca3;
+  --ufoGreen: #3cd070;
+  --lighterGreen: #CDFFDD;
+  --lightBlue: #d4e2e7;
+}
+
+/* general elements */
+body {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1rem;
+}
+
+h1 {
+  color: var(--lightBlue);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: auto;
+}
+
+h2 {
+  color: var(--darkGreen);
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3, h4, h5, h6 {
+  color: var(--darkGreen);
+  text-decoration: underline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--lightBlue);
+  font-weight: 700;
+}
+
+/* all content inside boxes */
+.container-fluid {
+  padding: 3% 7% 5%;
+  text-align: left;
+}
+
+.top {
+  background-color: var(--lightGreen);
+  color: var(--lightBlue);
+}
+
+.top_bar {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#profile_img {
+  height: 200px;
+  width: 200px;
+  display: block;
+  border-radius: 200px;
+  box-sizing: border-box;
+  background-color: var(--lightGreen);
+  border: 5px solid var(--darkGreen);
+}
+
+.top_bottom_bar {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.contact {
+  background-color: var(--mediumGreen);
+  color: var(--lightBlue);
+}
+
+.interests h2 {
+  text-decoration: none;
+  color: var(--darkGreen);
+}
+
+.h5_interests {
+  background-color: var(--mediumGreen);
+  color: var(--lightBlue);
+  display: inline-block;
+  padding: .75rem;
+  margin: 0.5rem;
+  border-radius: 1rem;
+}
+
+h5 {
+  display: inline-block;
+}
+
+a {
+  color: var(--lightBlue);
+}
+
+.interests {
+  background-color: var(--lightGreen);
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/*  education_experience  */
+.education_experience {
+  background-color: var(--lighterGreen)
+}
+
+.education_experience p {
+  color: var(--darkGreen);
+}
+
+.education_experience a {
+  color: var(--darkGreen);
+}
+
+/* adding functionality for js file */
+
+.content {
+  display: none;
+  width: auto;
+  text-align: left;
+  background-image: linear-gradient(to bottom, transparent, var(--lightGreen), var(--lighterGreen));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0;
+  /* border-radius: 2rem; */
+}
+
+.header {
+  text-align: left;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
